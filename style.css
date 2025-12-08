@@ -1,0 +1,90 @@
+/* Baby blue full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #bfe5ff; /* soft baby blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #003b65;
+}
+
+/* Main weather card container */
+.container {
+    width: 90%;
+    max-width: 420px;
+    padding: 35px 25px;
+    text-align: center;
+    background: linear-gradient(180deg, #bfe5ff 0%, #9bd3ff 100%);
+    border-radius: 28px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Search input box */
+.search {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Weather icon (sun/cloud/rain) */
+.weather-icon {
+    width: 140px;
+    display: block;
+    margin: 0 auto 8px auto;
+}
+
+/* Temperature */
+.weather h1 {
+    font-size: 70px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Weather description */
+.weather h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+/* White mini-card row (humidity/wind/feels-like) */
+.details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Each white card */
+.col {
+    flex: 1;
+    background: #ffffff;
+    padding: 15px 10px;
+    border-radius: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Small icons inside mini cards */
+.col img {
+    width: 35px;
+    margin-bottom: 6px;
+}
+
+/* Numbers + labels */
+.humidity,
+.wind,
+.feels {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 3px;
+}
